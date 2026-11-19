@@ -1,0 +1,9 @@
+{
+  "name": "gcp-artifact-trust",
+  "version": "1.0.0",
+  "description": "Lightweight software supply chain harness for AI coding agents: block malicious or hallucinated packages, remediate reachable CVEs with OSV, enforce SLSA Level 3 provenance, and gate Cloud Run deployments with Binary Authorization.",
+  "author": {
+    "name": "Edward Chuang",
+    "url": "https://github.com/edwardc-gcp/gcp-artifact-trust"
+  }
+}

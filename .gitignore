@@ -1,0 +1,14 @@
+# OS Metadata
+.DS_Store
+Thumbs.db
+
+# Temporary & Attestation Scratch Files
+*.tmp
+*.log
+*.sig
+payload.json
+.artifact-trust/
+
+# Security & SBOM Outputs
+*.sarif
+sbom*.json

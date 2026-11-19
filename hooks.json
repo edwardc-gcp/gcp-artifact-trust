@@ -1,0 +1,17 @@
+{
+  "artifact-trust-safety-guard": {
+    "enabled": true,
+    "PreToolUse": [
+      {
+        "matcher": "run_command|Bash",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "bash ./scripts/pre_tool_guard.sh",
+            "timeout": 5
+          }
+        ]
+      }
+    ]
+  }
+}
